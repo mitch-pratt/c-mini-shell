@@ -1,7 +1,7 @@
 # Mini Unix Shell in C
 
 ## Overview
-A simple Unix-like shell implemented in C - supports process creation, command parsing, and input/output redirection.
+A simple Unix-like shell implemented in C - supports process creation, execution, and modular command handling.
 
 ## Features
 - Interactive command prompt
@@ -13,6 +13,10 @@ A simple Unix-like shell implemented in C - supports process creation, command p
 - Use of POSIX system calls (fork, exec, wait)
 - Manual memory management in C
 - Modular design separating parsing, history, and alias handling
+
+## Requirements
+- WSL or Unix-like OS
+- GCC compiler
 
 ## How to Build and Run
 ```bash
